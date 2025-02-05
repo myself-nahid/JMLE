@@ -1,6 +1,6 @@
 # **JMLE Task**
 
-## ** Project Overview**
+## Project Overview
 This project consists of four main tasks designed to evaluate skills in **data annotation, object detection model training, research analysis, and proof-of-concept development**. The tasks include:
 1. **Data Annotation and Dataset Preparation**
 2. **Algorithm Development and Model Training**
@@ -15,7 +15,7 @@ This project consists of four main tasks designed to evaluate skills in **data a
 - Use **LabelImg** (Pascal VOC XML) or **CVAT** (COCO JSON) for annotation.
 - Ensure annotations are properly formatted for training.
 
-### **✅ Deliverables**
+### Deliverables
 - Annotated images and annotation files (**VOC XML or COCO JSON**).
 - A report detailing the annotation process and challenges faced.
 
@@ -34,7 +34,7 @@ labelImg
 - Split the dataset into **80% training and 20% validation**.
 - Train the model on **NVIDIA GPU** for better performance.
 
-### ** Deliverables**
+### Deliverables
 - Source code of the model training process.
 - A report summarizing the **model architecture, training methodology, and results**.
 
@@ -53,7 +53,7 @@ yolo train model=yolov8s.pt data=dataset.yaml epochs=50 imgsz=640
 - Select a **recent (last two years) research paper** on **object detection**.
 - Write a **1-2 page summary** covering **key contributions, methodology, and applications**.
 
-### ** Deliverables**
+### Deliverables
 - A written **research summary (PDF format)**.
 
 ### **🚀 Suggested Research Papers**
@@ -68,7 +68,7 @@ yolo train model=yolov8s.pt data=dataset.yaml epochs=50 imgsz=640
 - Implement a **Graphical User Interface (GUI)** using **Tkinter** or **PyQt**.
 - Enable detection from **webcam or video file**.
 
-### ** Deliverables**
+### Deliverables
 - Source code of the **demo application**.
 - A **user guide** explaining how to run the application and interpret results.
 
